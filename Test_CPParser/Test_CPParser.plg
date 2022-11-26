@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiltNER_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP3225.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "h:\diploma\morf_ste" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/FiltNER_lib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\contextpattern.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\cpcollection.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3225.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3226.TMP" with contents
+[
+/nologo /out:"Debug\FiltNER_lib.lib" 
+".\Debug\contextpattern.obj"
+".\Debug\cpcollection.obj"
+".\Debug\cpparser.obj"
+".\Debug\mentiongenerator.obj"
+".\Debug\Morf.obj"
+".\Debug\symbol.obj"
+".\Debug\tokenizedtext.obj"
+".\Debug\txtlistmap.obj"
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP3226.TMP"
+<h3>Output Window</h3>
+Compiling...
+contextpattern.cpp
+cpcollection.cpp
+Creating library...
+<h3>
+--------------------Configuration: Test_CPParser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP32C4.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "h:\diploma\filtner\filtner_lib" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test_CPParser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Diploma\FiltNER\Test_CPParser\main.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP32C4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP32C5.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Test_CPParser.pdb" /debug /machine:I386 /out:"Debug/Test_CPParser.exe" /pdbtype:sept 
+".\Debug\main.obj"
+"\My Documents\Diploma\FiltNER\FiltNER_lib\Debug\FiltNER_lib.lib"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP32C5.TMP"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Test_CPParser.bsc"  ".\Debug\main.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Test_CPParser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

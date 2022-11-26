@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiltNER_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP285.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/FiltNER_lib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\uni\Diploma\FiltNER\FiltNER_lib\contextpattern.cpp"
+"H:\uni\Diploma\FiltNER\FiltNER_lib\symbol.cpp"
+"H:\uni\Diploma\FiltNER\FiltNER_lib\tokenizedtext.cpp"
+"H:\uni\Diploma\FiltNER\FiltNER_lib\txtlistmap.cpp"
+"H:\uni\Diploma\FiltNER\FiltNER_lib\cpcollection.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP285.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Debug\FiltNER_lib.lib"  .\Debug\contextpattern.obj .\Debug\symbol.obj .\Debug\tokenizedtext.obj .\Debug\txtlistmap.obj .\Debug\cpcollection.obj "
+<h3>Output Window</h3>
+Compiling...
+contextpattern.cpp
+symbol.cpp
+tokenizedtext.cpp
+txtlistmap.cpp
+cpcollection.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+FiltNER_lib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

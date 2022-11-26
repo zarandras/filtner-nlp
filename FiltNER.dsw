@@ -1,0 +1,98 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "FiltNER"=".\FiltNER.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FiltNER_lib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "FiltNER_lib"=".\FiltNER_lib\FiltNER_lib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Test_CPParser"=".\Test_CPParser\Test_CPParser.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FiltNER_lib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Test_TokenizedReader"=".\Test_TokenizedReader\Test_TokenizedReader.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FiltNER
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "hsk151apitest"="..\HumorESK\test\hsk151apitest.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "morf"="..\MORF_STE\morf.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FiltNER_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP1055.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "h:\diploma\morf_ste" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/FiltNER_lib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\contextpattern.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\cpcollection.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\cpparser.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\mentiongenerator.cpp"
+"C:\My Documents\Diploma\MORF_STE\Morf.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\symbol.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\tokenizedtext.cpp"
+"C:\My Documents\Diploma\FiltNER\FiltNER_lib\txtlistmap.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1055.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1056.TMP" with contents
+[
+/nologo /out:"Debug\FiltNER_lib.lib" 
+".\Debug\contextpattern.obj"
+".\Debug\cpcollection.obj"
+".\Debug\cpparser.obj"
+".\Debug\mentiongenerator.obj"
+".\Debug\Morf.obj"
+".\Debug\symbol.obj"
+".\Debug\tokenizedtext.obj"
+".\Debug\txtlistmap.obj"
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP1056.TMP"
+<h3>Output Window</h3>
+Compiling...
+contextpattern.cpp
+cpcollection.cpp
+cpparser.cpp
+mentiongenerator.cpp
+Morf.cpp
+symbol.cpp
+tokenizedtext.cpp
+txtlistmap.cpp
+Creating library...
+<h3>
+--------------------Configuration: FiltNER - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP11D2.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "filtner_lib" /I "..\humoresk\header" /I "..\morf_ste" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/FiltNER.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\Diploma\FiltNER\arghandler.cpp"
+"C:\My Documents\Diploma\FiltNER\main.cpp"
+"C:\My Documents\Diploma\FiltNER\paragraphreader.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP11D2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP11D3.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib hsk15lib.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/FiltNER.pdb" /debug /machine:I386 /out:"Debug/FiltNER.exe" /pdbtype:sept /libpath:"..\humoresk\lib" 
+".\Debug\arghandler.obj"
+".\Debug\main.obj"
+".\Debug\paragraphreader.obj"
+".\FiltNER_lib\Debug\FiltNER_lib.lib"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP11D3.TMP"
+<h3>Output Window</h3>
+Compiling...
+arghandler.cpp
+main.cpp
+paragraphreader.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/FiltNER.bsc"  ".\Debug\arghandler.sbr" ".\Debug\main.sbr" ".\Debug\paragraphreader.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FiltNER.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
